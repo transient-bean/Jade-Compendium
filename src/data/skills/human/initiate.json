@@ -1,0 +1,281 @@
+{
+  "tier": 0,
+  "name": "Initiate",
+  "requiredCharacterLevel": 1,
+  "requiredTierPoints": 0,
+  "skills": [
+    {
+      "id": "218",
+      "name": "Heavy Blow",
+      "tier": 0,
+      "row": 1,
+      "col": 2,
+      "top": 28,
+      "left": 107,
+      "maxRank": 6,
+      "icon": "/assets/skills/sprites/js.jpg",
+      "spriteCoords": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "Active",
+      "description": "Heavy Blow 6 Ranks\nStrike with all your might! The first skill that any hero learns.\nCast Time: 1 second\nDeals bonus damage until you reach Level 30.",
+      "prerequisites": [],
+      "rankEffects": [
+        {
+          "rank": 1,
+          "spiritCost": "8 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 8 Spirit\nThis common attack deals 9 extra damage. Cooldown: 2 seconds."
+        },
+        {
+          "rank": 2,
+          "spiritCost": "8 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 8 Spirit\nThis common attack deals 15 extra damage. Cooldown: 2 seconds."
+        },
+        {
+          "rank": 3,
+          "spiritCost": "8 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 8 Spirit\nThis common attack deals 21 extra damage. Cooldown: 2 seconds."
+        },
+        {
+          "rank": 4,
+          "spiritCost": "8 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 8 Spirit\nThis common attack deals 27 extra damage. Cooldown: 2 seconds."
+        },
+        {
+          "rank": 5,
+          "spiritCost": "8 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 8 Spirit\nThis common attack deals 33 extra damage. Cooldown: 2 seconds."
+        },
+        {
+          "rank": 6,
+          "spiritCost": "8 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 8 Spirit\nThis common attack deals 39 extra damage. Cooldown: 2 seconds."
+        }
+      ]
+    },
+    {
+      "id": "219",
+      "name": "Vigilance",
+      "tier": 0,
+      "row": 2,
+      "col": 3,
+      "top": 99,
+      "left": 172,
+      "maxRank": 7,
+      "icon": "/assets/skills/sprites/js.jpg",
+      "spriteCoords": {
+        "x": 36,
+        "y": 0
+      },
+      "type": "Passive",
+      "description": "Vigilance 7 Ranks\nConstant vigilance will train\nyou to anticipate disturbances.\nPassive",
+      "prerequisites": [
+        {
+          "skillId": "218",
+          "requiredRank": 2,
+          "skillName": "Heavy Blow"
+        }
+      ],
+      "rankEffects": [
+        {
+          "rank": 1,
+          "spiritCost": "Passive",
+          "cooldown": "Passive",
+          "castTime": "Passive",
+          "description": "Increases all of your Resistances\nby 1."
+        },
+        {
+          "rank": 2,
+          "spiritCost": "Passive",
+          "cooldown": "Passive",
+          "castTime": "Passive",
+          "description": "Increases all of your Resistances\nby 2."
+        },
+        {
+          "rank": 3,
+          "spiritCost": "Passive",
+          "cooldown": "Passive",
+          "castTime": "Passive",
+          "description": "Increases all of your Resistances\nby 4."
+        },
+        {
+          "rank": 4,
+          "spiritCost": "Passive",
+          "cooldown": "Passive",
+          "castTime": "Passive",
+          "description": "Increases all of your Resistances\nby 6."
+        },
+        {
+          "rank": 5,
+          "spiritCost": "Passive",
+          "cooldown": "Passive",
+          "castTime": "Passive",
+          "description": "Increases all of your Resistances\nby 8."
+        },
+        {
+          "rank": 6,
+          "spiritCost": "Passive",
+          "cooldown": "Passive",
+          "castTime": "Passive",
+          "description": "Increases all of your Resistances\nby 10."
+        },
+        {
+          "rank": 7,
+          "spiritCost": "Passive",
+          "cooldown": "Passive",
+          "castTime": "Passive",
+          "description": "Increases all of your Resistances\nby 13."
+        }
+      ]
+    },
+    {
+      "id": "220",
+      "name": "Courage",
+      "tier": 0,
+      "row": 2,
+      "col": 1,
+      "top": 111,
+      "left": 65,
+      "maxRank": 6,
+      "icon": "/assets/skills/sprites/js.jpg",
+      "spriteCoords": {
+        "x": 72,
+        "y": 0
+      },
+      "type": "Active",
+      "description": "Courage 6 Ranks\nDestiny comes to those who seize it!\nThis skill increases your Attack.\nSelf Blessing\nCast Time: 1 second",
+      "prerequisites": [
+        {
+          "skillId": "218",
+          "requiredRank": 3,
+          "skillName": "Heavy Blow"
+        }
+      ],
+      "rankEffects": [
+        {
+          "rank": 1,
+          "spiritCost": "19 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 19 Spirit\nIncreases your Attack by 5 for 30 minutes.\nCooldown: 2 seconds."
+        },
+        {
+          "rank": 2,
+          "spiritCost": "21 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 21 Spirit\nIncreases your Attack by 9 for 30 minutes.\nCooldown: 2 seconds."
+        },
+        {
+          "rank": 3,
+          "spiritCost": "24 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 24 Spirit\nIncreases your Attack by 13 for 30 minutes.\nCooldown: 2 seconds."
+        },
+        {
+          "rank": 4,
+          "spiritCost": "27 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 27 Spirit\nIncreases your Attack by 17 for 30 minutes.\nCooldown: 2 seconds."
+        },
+        {
+          "rank": 5,
+          "spiritCost": "31 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 31 Spirit\nIncreases your Attack by 21 for 30 minutes.\nCooldown: 2 seconds."
+        },
+        {
+          "rank": 6,
+          "spiritCost": "36 SP",
+          "cooldown": "2s",
+          "castTime": "1 second",
+          "description": "Costs 36 Spirit\nIncreases your Attack by 25 for 30 minutes.\nCooldown: 2 seconds."
+        }
+      ]
+    },
+    {
+      "id": "221",
+      "name": "Heal Wounds",
+      "tier": 0,
+      "row": 3,
+      "col": 3,
+      "top": 181,
+      "left": 172,
+      "maxRank": 6,
+      "icon": "/assets/skills/sprites/js.jpg",
+      "spriteCoords": {
+        "x": 108,
+        "y": 0
+      },
+      "type": "Active",
+      "description": "Heal Wounds 6 Ranks\nUse water to restore the Health of a friendly target.\nBlessing\nCast Time: 2 seconds",
+      "prerequisites": [
+        {
+          "skillId": "219",
+          "requiredRank": 1,
+          "skillName": "Vigilance"
+        }
+      ],
+      "rankEffects": [
+        {
+          "rank": 1,
+          "spiritCost": "25 SP",
+          "cooldown": "24s",
+          "castTime": "2 seconds",
+          "description": "Costs 25 Spirit \nRestores 25 Health. Over the next 16 seconds\nyour target will be healed for an additional 128 Health.\nCooldown: 24 seconds. Healing effects do not stack.\nRange: 10 yards."
+        },
+        {
+          "rank": 2,
+          "spiritCost": "35 SP",
+          "cooldown": "23s",
+          "castTime": "2 seconds",
+          "description": "Costs 35 Spirit \nRestores 35 Health. Over the next 24 seconds\nyour target will be healed for an additional 192 Health.\nCooldown: 23 seconds. Healing effects do not stack.\nRange: 10 yards."
+        },
+        {
+          "rank": 3,
+          "spiritCost": "45 SP",
+          "cooldown": "22s",
+          "castTime": "2 seconds",
+          "description": "Costs 45 Spirit \nRestores 45 Health. Over the next 32 seconds\nyour target will be healed for an additional 256 Health.\nCooldown: 22 seconds. Healing effects do not stack.\nRange: 10 yards."
+        },
+        {
+          "rank": 4,
+          "spiritCost": "55 SP",
+          "cooldown": "21s",
+          "castTime": "2 seconds",
+          "description": "Costs 55 Spirit \nRestores 55 Health. Over the next 40 seconds\nyour target will be healed for an additional 320 Health.\nCooldown: 21 seconds. Healing effects do not stack.\nRange: 10 yards."
+        },
+        {
+          "rank": 5,
+          "spiritCost": "65 SP",
+          "cooldown": "20s",
+          "castTime": "2 seconds",
+          "description": "Costs 65 Spirit \nRestores 65 Health. Over the next 48 seconds\nyour target will be healed for an additional 384 Health.\nCooldown: 20 seconds. Healing effects do not stack.\nRange: 10 yards."
+        },
+        {
+          "rank": 6,
+          "spiritCost": "75 SP",
+          "cooldown": "19s",
+          "castTime": "2 seconds",
+          "description": "Costs 75 Spirit \nRestores 75 Health. Over the next 56 seconds\nyour target will be healed for an additional 448 Health.\nCooldown: 19 seconds. Healing effects do not stack.\nRange: 10 yards."
+        }
+      ]
+    }
+  ]
+}

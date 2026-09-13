@@ -1,0 +1,133 @@
+电信一区
+幻月	29000:huanyue.link.zhuxian.com.cn	503
+静竹	29000:jingzhu.link.zhuxian.com.cn	505
+斩龙	29000:zhanlong.link.zhuxian.com.cn	507
+紫电	29000:zidian.link.zhuxian.com.cn	508
+墨雪	29000:moxue.link.zhuxian.com.cn		509
+承影	29000:chengying.link.zhuxian.com.cn	521
+通天	29000:tongtian.link.zhuxian.com.cn	522
+天龙	29000:tianlong.link.zhuxian.com.cn	527
+伏虎	29000:fuhu.link.zhuxian.com.cn		528
+君临	29000:junlin.link.zhuxian.com.cn	538
+问鼎	29000:wending.link.zhuxian.com.cn	550
+六道	29000:liudao.link.zhuxian.com.cn	827
+凯旋	29000:kaixuan.link.zhuxian.com.cn	504
+荣光	29000:rongguang.link.zhuxian.com.cn	501
+御风	29000:yufeng.link.zhuxian.com.cn	502
+
+电信二区
+风云	29000:fengyun.link.zhuxian.com.cn	547
+旭日	29000:xuri.link.zhuxian.com.cn	530
+逐梦	29000:zhumeng.link.zhuxian.com.cn	511
+恒星	29000:hengxing.link.zhuxian.com.cn	548
+天烽	29000:tianfeng.link.zhuxian.com.cn	844
+魔龙	29000:molong.link.zhuxian.com.cn	513
+天尊	29000:tianzun.link.zhuxian.com.cn	804
+
+电信三区
+金鼎	29000:jinding.link.zhuxian.com.cn	561
+月魂	29000:yuehun.link.zhuxian.com.cn	556
+龙海	29000:longhai.link.zhuxian.com.cn	594
+风驰	29000:fengchi.link.zhuxian.com.cn	541
+碧海	29000:bihai.link.zhuxian.com.cn	830
+
+电信四区
+碧瑶	29000:biyao.link.zhuxian.com.cn	838
+九幽	29000:jiuyou.link.zhuxian.com.cn	571
+火龙	29000:huolong.link.zhuxian.com.cn	585
+飘渺	29000:piaomiao.link.zhuxian.com.cn	894
+锋芒	29000:fengmang.link.zhuxian.com.cn	577
+
+电信五区
+雪琪	29000:xueqidianxin.link.zhuxian.com.cn	866
+圣焰	29000:shengyan.link.zhuxian.com.cn	847
+江山	29000:jiangshan.link.zhuxian.com.cn	908
+雾灵	29000:wuling.link.zhuxian.com.cn	870
+
+网通一区
+九天	29000:jiutian.link.zhuxian.com.cn	533
+创世	29000:chuangshi.link.zhuxian.com.cn	517
+轩辕	29000:xuanyuan.link.zhuxian.com.cn	557
+腾龙	29000:tenglong.link.zhuxian.com.cn	515
+凤羽	29000:fengyu.link.zhuxian.com.cn	519
+龙渊	29000:longyuan.link.zhuxian.com.cn	516
+天籁	29000:tianlai.link.zhuxian.com.cn	534
+绮梦	29000:qimeng.link.zhuxian.com.cn	535
+烟雨	29000:yanyu.link.zhuxian.com.cn	910
+
+网通二区
+碧瑶	29000:biyaowangtong.link.zhuxian.com.cn	821
+百黎	29000:baili.link.zhuxian.com.cn	816
+狂剑	29000:kuangjian.link.zhuxian.com.cn	562
+逐风	29000:zhufeng.link.zhuxian.com.cn	575
+
+网通三区
+雪琪	29000:xueqiwangtong.link.zhuxian.com.cn	865
+雄霸	29000:xiongba.link.zhuxian.com.cn	872
+华威	29000:huawei.link.zhuxian.com.cn	848
+
+新电信一区
+神武池	29000:shenwuchi.link.zhuxian.com.cn	923
+碧落	29000:biluo.link.zhuxian.com.cn	926
+仙阁	29000:xiange.link.zhuxian.com.cn	941
+琼台	29000:qiongtai.link.zhuxian.com.cn	943
+流光异彩	29000:liuguangyicai.link.zhuxian.com.cn	924
+气宇轩昂	29000:qiyuxuanang.link.zhuxian.com.cn	951
+江南	29000:jiangnan.link.zhuxian.com.cn	927
+碧海苍穹	29000:bihaicangqiong.link.zhuxian.com.cn	921
+
+新电信二区
+独霸一方	29000:dubayifang.link.zhuxian.com.cn	956
+征战九州	29000:zhengzhanjiuzhou.link.zhuxian.com.cn	984
+
+新电信三区
+傲视天地	29000:aoshitiandi.link.zhuxian.com.cn	998
+问鼎天下	29000:wendingtianxia.link.zhuxian.com.cn	2029
+惊涛骇浪	29000:jingtaohailang.link.zhuxian.com.cn	2006
+万里如虎	29000:wanliruhu.link.zhuxian.com.cn	2014
+虎踞龙盘	29000:hujulongpan.link.zhuxian.com.cn	993
+江山霸业	29000:jiangshanbaye.link.zhuxian.com.cn	2018
+千山暮雪	29000:qianshanmuxue.link.zhuxian.com.cn	2027
+
+新电信四区
+龙腾九天	29000:longtengjiutian.link.zhuxian.com.cn	2045
+日月同辉	29000:riyuetonghui.link.zhuxian.com.cn	2046
+皇朝霸业	29000:huangchaobaye.link.zhuxian.com.cn	2050
+御剑屠龙	29000:yujiantulong.link.zhuxian.com.cn	2049
+斗战九霄	29000:douzhanjiuxiao.link.zhuxian.com.cn	2053
+傲雪欺霜	29000:aoxueqishuang.link.zhuxian.com.cn	2055
+五福临门	29000:wufulinmen.link.zhuxian.com.cn	2057
+泰山北斗	29000:taishanbeidou.link.zhuxian.com.cn	2059
+赤胆忠心	29000:chidanzhongxin.link.zhuxian.com.cn	2061
+乘风御龙	29000:chengfengyulong.link.zhuxian.com.cn	2062
+盖世英雄	29000:gaishiyingxiong.link.zhuxian.com.cn	2063
+
+新网通一区
+扭转乾坤	29000:niuzhuanqiankun.link.zhuxian.com.cn	958
+帝王之魂	29000:diwangzhihun.link.zhuxian.com.cn	936
+
+新网通二区
+为爱成神	29000:weiaichengshen.link.zhuxian.com.cn	2044
+剑舞风云	29000:jianwufengyun.link.zhuxian.com.cn	2052
+逐日追风	29000:zhurizhuifeng.link.zhuxian.com.cn	2054
+吉星高照	29000:jixinggaozhao.link.zhuxian.com.cn	2056
+义薄云天	29000:yiboyuntian.link.zhuxian.com.cn	997
+豪情壮志	29000:haoqingzhuangzhi.link.zhuxian.com.cn	2015
+龙虎风云	29000:longhufengyun.link.zhuxian.com.cn	2058
+侠骨柔情	29000:xiagurouqing.link.zhuxian.com.cn	2060
+绝世风云	29000:jueshifengyun.link.zhuxian.com.cn	2025
+秋水长天	29000:qiushuichangtian.link.zhuxian.com.cn	2051
+金戈铁马	29000:jingetiema.link.zhuxian.com.cn	995
+星火燎原	29000:xinghuoliaoyuan.link.zhuxian.com.cn	2064
+
+
+经典体验区
+预言	29000:zhuxiantiyan.link.zhuxian.com.cn	888
+
+内部
+预言	29000:zhuxiantiyan.link.zhuxian.com.cn	888
+内服XXOO	29000:10.68.12.11			16
+内服2222	49000:10.68.12.10			1211
+内服3333	39000:10.68.12.10			1214
+对外发布一	29000:10.68.52.66			205
+对外发布二	29000:10.68.52.71			460

@@ -1,0 +1,825 @@
+/* =========================================================================
+   JADE COMPENDIUM - HOME PORTAL & MULTIPLE CHARACTERS STYLES
+   Authentic Chinese Xianxia / Wuxia MMORPG Visuals
+   ========================================================================= */
+
+.home-portal-wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 8px 16px 48px;
+  width: 100%;
+}
+
+/* --- Hero Banner (Carved Imperial Wooden Tablet with Inlaid Bronze) --- */
+.home-hero-section {
+  background:
+    radial-gradient(ellipse at 50% 20%, rgba(138, 111, 59, 0.22) 0%, transparent 70%),
+    linear-gradient(180deg, #221a12 0%, #140f0a 70%, #0c0805 100%);
+  border: 2px solid var(--gold-border);
+  border-radius: 6px;
+  padding: 38px 24px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.9), inset 0 0 24px rgba(223, 194, 125, 0.15);
+}
+
+/* Ornate Chinese Filigree Corner Brackets */
+.home-hero-section::before,
+.home-hero-section::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 2.5px solid var(--gold-primary);
+  pointer-events: none;
+}
+.home-hero-section::before { top: -2px; left: -2px; border-right: none; border-bottom: none; }
+.home-hero-section::after { bottom: -2px; right: -2px; border-left: none; border-top: none; }
+
+.home-hero-badge {
+  display: inline-block;
+  font-family: var(--font-serif);
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  color: var(--jade-glow);
+  border: 1px solid rgba(78, 124, 107, 0.45);
+  background: rgba(22, 38, 32, 0.65);
+  padding: 3px 14px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.home-hero-title {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  color: var(--gold-highlight);
+  letter-spacing: 0.08em;
+  text-shadow: 0 2px 10px rgba(223, 194, 125, 0.5), 0 0 20px rgba(0, 0, 0, 0.95);
+  margin-bottom: 12px;
+}
+
+.home-hero-desc {
+  max-width: 720px;
+  margin: 0 auto 24px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.home-hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.home-cta-btn {
+  font-size: 0.92rem !important;
+  padding: 10px 22px !important;
+  letter-spacing: 0.06em;
+}
+
+/* --- Section Headers --- */
+.home-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1.5px solid rgba(138, 111, 59, 0.4);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.home-section-title {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--gold-highlight);
+  letter-spacing: 0.06em;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+.home-section-subtitle {
+  font-size: 0.78rem;
+  color: var(--jade-glow);
+  letter-spacing: 0.05em;
+  margin-left: 8px;
+}
+
+/* --- Characters Roster Grid --- */
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.char-roster-card {
+  background: linear-gradient(180deg, #1e1710 0%, #100c08 100%);
+  border: 1.5px solid #8a6f3b;
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 
+    0 0 0 1px #140d07,
+    inset 0 0 0 1px #3a2a16,
+    inset 0 0 0 2px #0f0a05,
+    inset 0 0 0 3px rgba(223, 194, 125, 0.3),
+    0 8px 20px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+/* 2D/3D Chinese filigree corner brackets on roster cards */
+.char-roster-card::before,
+.char-roster-card::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #dfc27d;
+  box-shadow: 0 0 4px rgba(223, 194, 125, 0.6);
+  pointer-events: none;
+}
+.char-roster-card::before { top: -2px; left: -2px; border-right: none; border-bottom: none; }
+.char-roster-card::after { bottom: -2px; right: -2px; border-left: none; border-top: none; }
+
+.char-roster-card:hover {
+  border-color: var(--gold-highlight);
+  box-shadow: 
+    0 0 0 1px #140d07,
+    inset 0 0 0 1px #3a2a16,
+    inset 0 0 0 2px rgba(223, 194, 125, 0.4),
+    0 12px 28px rgba(0, 0, 0, 0.85);
+  transform: translateY(-2px);
+}
+
+.char-roster-card.active-char {
+  border-color: var(--jade-glow);
+  box-shadow: 0 0 16px rgba(104, 171, 148, 0.45), 0 8px 22px rgba(0, 0, 0, 0.8);
+}
+
+.char-card-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.char-card-crest {
+  width: 44px;
+  height: 44px;
+  border-radius: 4px;
+  border: 1.5px solid var(--gold-border);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  flex-shrink: 0;
+  background: #0d0a07;
+}
+
+.char-card-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+
+.char-card-name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.char-card-name {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-white);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.char-badge-active {
+  font-size: 0.62rem;
+  background: rgba(78, 124, 107, 0.3);
+  color: var(--jade-glow);
+  border: 1px solid var(--jade-glow);
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-weight: bold;
+}
+
+.char-card-class {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.char-faction-tag {
+  color: var(--jade-glow);
+}
+
+.char-card-stats-row {
+  display: flex;
+  gap: 12px;
+  background: rgba(14, 10, 7, 0.75);
+  border: 1px solid rgba(138, 111, 59, 0.25);
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.char-stat-item {
+  display: flex;
+  gap: 6px;
+  font-size: 0.75rem;
+}
+
+.char-stat-label {
+  color: var(--text-muted);
+}
+
+.char-stat-val {
+  color: var(--gold-highlight);
+  font-weight: bold;
+}
+
+.char-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.char-card-actions .char-btn-play {
+  flex: 1;
+  font-size: 0.78rem !important;
+  padding: 6px 10px !important;
+}
+
+.char-card-actions .char-btn-rename,
+.char-card-actions .char-btn-delete {
+  font-size: 0.78rem !important;
+  padding: 6px 9px !important;
+}
+
+.empty-roster-card {
+  grid-column: 1 / -1;
+  background: rgba(18, 14, 10, 0.85);
+  border: 2px dashed rgba(138, 111, 59, 0.4);
+  border-radius: 6px;
+  padding: 32px 20px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.empty-roster-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.empty-roster-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--gold-highlight);
+  margin-bottom: 4px;
+}
+
+.empty-roster-desc {
+  font-size: 0.85rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* --- Faction & Class Explorer --- */
+.home-faction-filter-bar {
+  display: flex;
+  gap: 8px;
+}
+
+.home-filter-btn {
+  background: linear-gradient(180deg, #221a12 0%, #130f0a 100%);
+  border: 1px solid rgba(138, 111, 59, 0.35);
+  border-radius: 4px;
+  padding: 6px 14px;
+  color: var(--text-muted);
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: inset 0 1px 0 rgba(255, 240, 190, 0.15);
+}
+
+.home-filter-btn:hover {
+  border-color: var(--gold-border);
+  color: var(--text-gold);
+}
+
+.home-filter-btn.active {
+  background: linear-gradient(180deg, #2e453c 0%, #15251f 100%);
+  border-color: var(--jade-glow);
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(104, 171, 148, 0.4);
+}
+
+.home-classes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+/* Authentic Xianxia Class Card with 2D/3D Gilded Frame */
+.home-class-card {
+  background: linear-gradient(180deg, #1c150e 0%, #100c08 100%);
+  border: 1.5px solid #8a6f3b;
+  border-radius: 6px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 
+    0 0 0 1px #140d07,
+    inset 0 0 0 1px #3a2a16,
+    inset 0 0 0 2px #0f0a05,
+    inset 0 0 0 3px rgba(223, 194, 125, 0.3),
+    0 8px 24px rgba(0, 0, 0, 0.8), 
+    inset 0 0 14px rgba(0, 0, 0, 0.6);
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.home-class-card::before,
+.home-class-card::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #dfc27d;
+  box-shadow: 0 0 4px rgba(223, 194, 125, 0.6);
+  pointer-events: none;
+}
+.home-class-card::before { top: -2px; left: -2px; border-right: none; border-bottom: none; }
+.home-class-card::after { bottom: -2px; right: -2px; border-left: none; border-top: none; }
+
+.home-class-card:hover {
+  border-color: var(--gold-highlight);
+  box-shadow: 
+    0 0 0 1px #140d07,
+    inset 0 0 0 1px #3a2a16,
+    inset 0 0 0 2px rgba(223, 194, 125, 0.4),
+    0 12px 32px rgba(0, 0, 0, 0.9), 
+    0 0 14px rgba(223, 194, 125, 0.3);
+  transform: translateY(-2px);
+}
+
+.home-class-card-header {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.home-class-crest-wrap {
+  flex-shrink: 0;
+}
+
+.home-class-crest {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  border: 2px solid var(--gold-border);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.9);
+  background: #0d0a07;
+}
+
+.home-class-title-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.home-class-name {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--gold-highlight);
+  margin: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.home-class-title {
+  font-size: 0.72rem;
+  color: var(--jade-glow);
+  font-style: italic;
+}
+
+.home-class-faction-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  padding: 1px 6px;
+  border-radius: 3px;
+  width: fit-content;
+  margin-top: 2px;
+}
+.home-class-faction-badge.human {
+  background: rgba(138, 111, 59, 0.25);
+  color: #fff0be;
+  border: 1px solid rgba(138, 111, 59, 0.5);
+}
+.home-class-faction-badge.athan {
+  background: rgba(78, 124, 107, 0.25);
+  color: var(--jade-glow);
+  border: 1px solid rgba(78, 124, 107, 0.5);
+}
+
+.home-class-meta-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: rgba(12, 9, 6, 0.75);
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: 1px solid rgba(138, 111, 59, 0.2);
+}
+
+.home-class-desc {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Combat Radar Container in Class Card */
+.home-class-pentagon-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(12, 9, 6, 0.85);
+  border: 1px solid rgba(138, 111, 59, 0.3);
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 4px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.pentagon-chart-title {
+  font-family: var(--font-serif);
+  font-size: 0.72rem;
+  color: var(--jade-glow);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.skill-pentagon-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.skill-pentagon-container.clickable-radar {
+  cursor: zoom-in;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.skill-pentagon-container.clickable-radar:hover {
+  transform: scale(1.025);
+  filter: drop-shadow(0 0 12px rgba(223, 194, 125, 0.45));
+}
+
+.skill-pentagon-svg {
+  overflow: visible;
+  display: block;
+}
+
+/* --- Radar Chart Lightbox Modal (Skeuomorphic Imperial Shrine Tablet) --- */
+.chart-lightbox-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(4, 3, 2, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  animation: chartLightboxFade 0.2s ease-out;
+}
+
+.chart-lightbox-modal.active {
+  display: flex;
+}
+
+.chart-lightbox-content {
+  position: relative;
+  background: radial-gradient(circle at 50% 50%, #221a12 0%, #140f0a 75%, #0a0805 100%);
+  border: 2px solid var(--gold-primary);
+  border-radius: 8px;
+  padding: 36px 32px 26px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.98), 0 0 35px rgba(223, 194, 125, 0.25), inset 0 0 24px rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 96vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: chartLightboxPop 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Filigree corner brackets on lightbox */
+.chart-lightbox-content::before,
+.chart-lightbox-content::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--gold-highlight);
+  pointer-events: none;
+}
+.chart-lightbox-content::before { top: -2px; left: -2px; border-right: none; border-bottom: none; }
+.chart-lightbox-content::after { bottom: -2px; right: -2px; border-left: none; border-top: none; }
+
+.lightbox-radar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.lightbox-radar-title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gold-highlight);
+  letter-spacing: 0.08em;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.95);
+}
+
+.lightbox-radar-sub {
+  font-size: 0.76rem;
+  color: var(--jade-glow);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.chart-lightbox-content .skill-pentagon-container {
+  max-width: 100%;
+  max-height: 60vh;
+}
+
+.chart-lightbox-content svg {
+  max-width: 100%;
+  height: auto;
+  max-height: 55vh;
+}
+
+.chart-lightbox-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: rgba(18, 14, 10, 0.9);
+  border: 1px solid var(--gold-border);
+  color: var(--gold-highlight);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.chart-lightbox-close:hover {
+  background: var(--cinnabar-red);
+  border-color: #ff6b6b;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+@keyframes chartLightboxFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes chartLightboxPop {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* --- Stats Overview Toggle & Drawer --- */
+.btn-stats-overview {
+  background: linear-gradient(180deg, #241c14 0%, #140f0a 100%);
+  border: 1px solid rgba(138, 111, 59, 0.45);
+  color: var(--text-gold);
+  font-size: 0.74rem !important;
+  padding: 4px 12px !important;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.2s ease;
+  font-family: var(--font-serif);
+  letter-spacing: 0.04em;
+  box-shadow: inset 0 1px 0 rgba(255, 240, 190, 0.15), 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.btn-stats-overview:hover {
+  background: linear-gradient(180deg, #33271c 0%, #1c150e 100%);
+  border-color: var(--gold-highlight);
+  color: #fff;
+  box-shadow: 0 0 8px rgba(223, 194, 125, 0.4);
+}
+
+.btn-stats-overview.active {
+  background: linear-gradient(180deg, #2e453c 0%, #15251f 100%);
+  border-color: var(--jade-glow);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(104, 171, 148, 0.4);
+}
+
+.class-stats-overview-drawer {
+  width: 100%;
+  margin-top: 8px;
+  animation: statsDrawerSlide 0.2s ease-out;
+}
+
+@keyframes statsDrawerSlide {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.stats-overview-box {
+  width: 100%;
+  background: rgba(12, 9, 6, 0.92);
+  border: 1px solid rgba(138, 111, 59, 0.35);
+  border-radius: 4px;
+  padding: 8px 10px;
+  box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.8);
+}
+
+.so-group {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.so-group-header {
+  font-family: var(--font-serif);
+  font-size: 0.68rem;
+  color: var(--gold-highlight);
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid rgba(138, 111, 59, 0.25);
+  padding-bottom: 2px;
+  margin-bottom: 3px;
+}
+
+.so-group-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+
+.so-group-grid.so-grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.so-badge {
+  background: rgba(20, 15, 10, 0.85);
+  border: 1px solid rgba(138, 111, 59, 0.25);
+  border-radius: 3px;
+  padding: 4px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+
+.so-lbl {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.so-num {
+  font-family: 'Consolas', monospace, var(--font-serif);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+/* Header Banner Specific Radar & Drawer Box */
+.header-radar-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-stats-drawer {
+  position: absolute;
+  right: 12px;
+  top: 100%;
+  z-index: 100;
+  width: 330px;
+  margin-top: 4px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.95);
+}
+
+.home-class-footer {
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.home-btn-plan-class {
+  width: 100%;
+  font-size: 0.82rem !important;
+  padding: 8px 12px !important;
+}
+
+/* --- Create Character Modal Class Picker --- */
+.create-char-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-char-class-picker {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+  max-height: 260px;
+  overflow-y: auto;
+  padding: 4px;
+}
+
+.class-picker-option {
+  background: #140f0a;
+  border: 1.5px solid rgba(138, 111, 59, 0.35);
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: inset 0 1px 0 rgba(255, 240, 190, 0.1);
+}
+
+.class-picker-option:hover {
+  border-color: var(--gold-border);
+  background: #1e1710;
+}
+
+.class-picker-option.selected {
+  border-color: var(--jade-glow);
+  background: linear-gradient(180deg, #2e453c 0%, #15251f 100%);
+  box-shadow: 0 0 10px rgba(104, 171, 148, 0.4);
+}
+
+.picker-crest {
+  width: 36px;
+  height: 36px;
+  border-radius: 3px;
+  background: #0d0a07;
+}
+
+.picker-name {
+  font-family: var(--font-serif);
+  font-size: 0.78rem;
+  color: var(--text-white);
+  font-weight: 600;
+}
+
+.picker-faction {
+  font-size: 0.65rem;
+  color: var(--jade-glow);
+}
+
+@media (max-width: 768px) {
+  .home-hero-title {
+    font-size: 1.6rem;
+  }
+  .home-classes-grid {
+    grid-template-columns: 1fr;
+  }
+  .characters-grid {
+    grid-template-columns: 1fr;
+  }
+}

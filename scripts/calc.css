@@ -1,0 +1,133 @@
+.calc {width:1024px;margin:20px auto;}
+.calc td {background-color: #19385c;color:#fff;}
+.calc td#cmenu {width:240px;vertical-align:top;color:#fff;}
+.calc td#skill {width:784px;}
+.calc td#skill div.cont {float:left;margin:0px 0px;padding:0px;border:none;width:258px;height:auto;}
+.calc td#skill div.spacer {height:392px;}
+.calc td#skill div.spacer2 {height:1px;width:780px;}
+.calc td#skill div.cont .abs {position:relative;}
+.calc td#skill div.cont h3 {margin:5px auto;}
+.calc td#skill div.cont div.p {cursor:pointer;position:absolute;width:13px;height:12px;z-index:100;background-repeat: no-repeat;background-position: center center;background-image: url(data:image/gif;base64,R0lGODlhDQAMAOZpAAUoDQ00Fy+weTrgrRaDXCCrdQUoDD3blxWTYzbYpgdaPiauiyetgiGyhSfHkybHhiOvfS7IoA1zThA3FxWAWA+EVwcqCx+XZxk4Eu7m1sPWwQowDCOjgsXWwYumkjCaXcPVwDDLoR9XMO7l1oynlA4wDxWZaCZbMkVPJpCznC3PliZMGBg3GFZyHizGj1dZKSa4dkDjmZfGrCbHlRtQLJvHqhWaaA0uDwZXOwkvDRGMXw0tDgptSRRKKiGRaye3dpG0nJvHqcTWwIunk4umkyU5HJG1njtCIggsDC3PlzDKoRqibCaTaBqhaxKMXwVWOgttSu7m10DjmBKIWgwsDQ+FV5jGrSbHlkNMJDObXUxRKSGRaizHkAgtDRKJWpC0nR6nfA8xDh+YZymVakJJJxg5ERQvEREtEO/m1////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAGkALAAAAAANAAwAAAeUgGlpLSsTAYcTLGSCaScXDlcNYA0zDmIiaS9ZUgcCQVE1AgcxHyhlPw8FFCloQBQFDzAYG00IEgpDaCQKEghLYTlTGhkjaMbGHV4lXRUgx89CVTdIJk5QOB5oRE88OjY7Fi5JEARfaEYEECpcVEVMAwkMMmhWDAkDY1hpPVtKEQscFkQI4YMGoyNnDABYaMCMFkGBAAA7);}
+.calc td#skill div.cont div.m {cursor:pointer;position:absolute;width:13px;height:12px;z-index:100;background-repeat: no-repeat;background-position: center center;background-image: url(data:image/gif;base64,R0lGODlhDQAMAOZDAA00FwUoDRA3FwUoDBg5ERk4EhKIWiGRahWaaBWZaAwsDQ0tDhqibBQvESGRawcqCw4wD8TWwAowDBRKKu7l1sXWwTCaXTDKoUNMJB+XZ0JJJ0DjmO7m1iU5HB9XMAgtDRtQLA8xDhKJWg+EVx+YZ1ZyHhqhayaTaCa4dizHkExRKTObXSZbMie3djtCIg0uDwkvDQgsDA+FV8PVwCzGj1dZKSZMGBEtEMPWwRg3GCmVakVPJjDLoSfHk0DjmTrgre/m1y3PlhGMX////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAEMALAAAAAANAAwAAAdqgENDJTYCAIcCORqCQywZPZCRPSQeQzUrGz6am5oWOwQtQaKjoygFEiZCqqurDCEwBjgcFEC1tRUiEB8jM7a+ETIvMQmsxQgLDzSkyykKHSc/0dLSOhhDEwcXPNvcDiCMLjcDAeQDDSqCgQA7);}
+.calc td#skill div.cont div.t {position:absolute;font-size:12px;font-weight:700;background-color:#000;padding:0px 1px;text-align: center;font-family: "Verdana";height:auto;border:none;margin:0px;color:#ffce31;z-index:10;}
+.calc td#skill div.cont div.trans {width:36px;height:36px;background-color:#000;filter:alpha(opacity=50);-moz-opacity: 0.50;opacity: 0.50;position:absolute;overflow:visible;z-index:5;}
+.calc td#skill div.cont div.pop {position:absolute;width:36px;height:36px;z-index:20;}
+.calc td#skill div.cont div.tiertext {position:absolute;font-size:12px;font-weight:700;background-color:#000;padding:2px 4px;text-align: center;font-family: "Verdana";height:auto;border:none;margin:0px;color:#ffce31;z-index:1;top:2px;left:2px;}
+.calc td#skill div.cont div.border {position:absolute;width:36px;height:36px;z-index:1;display:none;}
+.calc td#skill div.cont div.click {border:3px solid red;}
+.calc td#skill div.cont div.set {border:3px solid yellow;}
+.calc td#skill div.cont div.sarden, .calc td#skill div.cont div.tarden, .calc td#skill div.cont div.sbalo, .calc td#skill div.cont div.tbalo,
+.calc td#skill div.cont div.srayan, .calc td#skill div.cont div.trayan, .calc td#skill div.cont div.scelan, .calc td#skill div.cont div.tcelan,
+.calc td#skill div.cont div.skytos, .calc td#skill div.cont div.tkytos, .calc td#skill div.cont div.spsychea, .calc td#skill div.cont div.tpsychea,
+.calc td#skill div.cont div.shydran, .calc td#skill div.cont div.thydran,
+.calc td#skill div.cont div.sforta, .calc td#skill div.cont div.tforta, .calc td#skill div.cont div.sbarbe, .calc td#skill div.cont div.tbarbe,
+.calc td#skill div.cont div.svim, .calc td#skill div.cont div.tvim, .calc td#skill div.cont div.slupin, .calc td#skill div.cont div.tlupin,
+.calc td#skill div.cont div.sjadeon, .calc td#skill div.cont div.tjadeon, .calc td#skill div.cont div.sskysong, .calc td#skill div.cont div.tskysong,
+.calc td#skill div.cont div.smodo, .calc td#skill div.cont div.tmodo, .calc td#skill div.cont div.sincense, .calc td#skill div.cont div.tincense {position:absolute;width:36px;height:36px;z-index:1;}
+.calc td#skill div.cont div.sarden {background-image:url(/images/skills/as.jpg);}
+.calc td#skill div.cont div.tarden {background-image:url(/images/skills/at.jpg);}
+.calc td#skill div.cont div.sbalo {background-image:url(/images/skills/bs.jpg);}
+.calc td#skill div.cont div.tbalo {background-image:url(/images/skills/bt.jpg);}
+.calc td#skill div.cont div.srayan {background-image:url(/images/skills/rs.jpg);}
+.calc td#skill div.cont div.trayan {background-image:url(/images/skills/rt.jpg);}
+.calc td#skill div.cont div.scelan {background-image:url(/images/skills/cs.jpg);}
+.calc td#skill div.cont div.tcelan {background-image:url(/images/skills/ct.jpg);}
+.calc td#skill div.cont div.sforta {background-image:url(/images/skills/fs.jpg);}
+.calc td#skill div.cont div.tforta {background-image:url(/images/skills/ft.jpg);}
+.calc td#skill div.cont div.svim {background-image:url(/images/skills/vs.jpg);}
+.calc td#skill div.cont div.tvim {background-image:url(/images/skills/vt.jpg);}
+.calc td#skill div.cont div.slupin {background-image:url(/images/skills/ls.jpg);}
+.calc td#skill div.cont div.tlupin {background-image:url(/images/skills/lt.jpg);}
+.calc td#skill div.cont div.sjadeon {background-image:url(/images/skills/js.jpg);}
+.calc td#skill div.cont div.tjadeon {background-image:url(/images/skills/jt.jpg);}
+.calc td#skill div.cont div.sskysong {background-image:url(/images/skills/ss.jpg);}
+.calc td#skill div.cont div.tskysong {background-image:url(/images/skills/st.jpg);}
+.calc td#skill div.cont div.sincense {background-image:url(/images/skills/is.jpg);}
+.calc td#skill div.cont div.tincense {background-image:url(/images/skills/it.jpg);}
+.calc td#skill div.cont div.smodo {background-image:url(/images/skills/ms.jpg);}
+.calc td#skill div.cont div.tmodo {background-image:url(/images/skills/mt.jpg);}
+.calc td#skill div.cont div.sbarbe {background-image:url(/images/skills/vos.jpg);}
+.calc td#skill div.cont div.tbarbe {background-image:url(/images/skills/vot.jpg);}
+
+.calc td#skill div.cont div.skytos {background-image:url(/images/skills/ks.jpg);}
+.calc td#skill div.cont div.tkytos {background-image:url(/images/skills/kt.jpg);}
+.calc td#skill div.cont div.spsychea {background-image:url(/images/skills/ps.jpg);}
+.calc td#skill div.cont div.tpsychea {background-image:url(/images/skills/pt.jpg);}
+.calc td#skill div.cont div.shydran {background-image:url(/images/skills/hs.jpg);}
+.calc td#skill div.cont div.thydran {background-image:url(/images/skills/ht.jpg);}
+
+.calc td#skill div.cont div.sarden1, .calc td#skill div.cont div.sbalo1, .calc td#skill div.cont div.srayan1, .calc td#skill div.cont div.scelan1, .calc td#skill div.cont div.sbarbe1 {width:258px;height:366px;background: url(/images/skills/backg1.jpg);}
+.calc td#skill div.cont div.sforta1 {width:258px;height:366px;background: url(/images/skills/backf1.jpg);}
+.calc td#skill div.cont div.sarden2, .calc td#skill div.cont div.sarden3, .calc td#skill div.cont div.sarden4,
+.calc td#skill div.cont div.scelan2, .calc td#skill div.cont div.scelan3, .calc td#skill div.cont div.scelan4,
+.calc td#skill div.cont div.srayan2, .calc td#skill div.cont div.srayan3, .calc td#skill div.cont div.srayan4,
+.calc td#skill div.cont div.sbarbe2, .calc td#skill div.cont div.sbarbe3, .calc td#skill div.cont div.sbarbe4,
+.calc td#skill div.cont div.sbalo2, .calc td#skill div.cont div.sbalo3,   .calc td#skill div.cont div.sbalo4 {width:258px;height:366px;background: url(/images/skills/backg2.jpg);}
+.calc td#skill div.cont div.sforta2, .calc td#skill div.cont div.sforta3,   .calc td#skill div.cont div.sforta4 {width:258px;height:366px;background: url(/images/skills/backf2.jpg);}
+.calc td#skill div.cont div.sarden5, .calc td#skill div.cont div.srayan5, .calc td#skill div.cont div.scelan5, .calc td#skill div.cont div.sbarbe5, .calc td#skill div.cont div.sbalo5 {width:258px;height:366px;background: url(/images/skills/backg3.jpg);}
+.calc td#skill div.cont div.sforta5 {width:258px;height:366px;background: url(/images/skills/backf3.jpg);}
+.calc td#skill div.cont div.tarden7, .calc td#skill div.cont div.tarden9, .calc td#skill div.cont div.tarden8 {width:258px;height:366px;background: url(/images/skills/backta.jpg);}
+.calc td#skill div.cont div.tbalo7, .calc td#skill div.cont div.tbalo8, .calc td#skill div.cont div.tbalo9 {width:258px;height:366px;background: url(/images/skills/backtb.jpg);}
+.calc td#skill div.cont div.trayan7 {width:258px;height:366px;background: url(/images/skills/backtc.jpg);}
+.calc td#skill div.cont div.trayan8, .calc td#skill div.cont div.trayan9 {width:258px;height:366px;background: url(/images/skills/backtd.jpg);}
+.calc td#skill div.cont div.tcelan7, .calc td#skill div.cont div.tforta7 {width:258px;height:366px;background: url(/images/skills/celana.jpg);}
+.calc td#skill div.cont div.tcelan8 {width:258px;height:366px;background: url(/images/skills/celanb.jpg);}
+.calc td#skill div.cont div.tcelan9, .calc td#skill div.cont div.tforta8 {width:258px;height:366px;background: url(/images/skills/celanc.jpg);}
+.calc td#skill div.cont div.tforta9 {width:258px;height:366px;background: url(/images/skills/celand.jpg);}
+.calc td#skill div.cont div.tbarbe7 {width:258px;height:366px;background: url(/images/skills/backtvo7.jpg);}
+.calc td#skill div.cont div.tbarbe8 {width:258px;height:366px;background: url(/images/skills/backtvo8.jpg);}
+.calc td#skill div.cont div.tbarbe9 {width:258px;height:366px;background: url(/images/skills/backtvo9.jpg);}
+
+.calc td#skill div.cont div.sskysong10, .calc td#skill div.cont div.svim10, .calc td#skill div.cont div.slupin10,
+.calc td#skill div.cont div.sjadeon10, .calc td#skill div.cont div.smodo10, .calc td#skill div.cont div.sincense10 {width:256px;height:332px;background: url(/images/skills/h0.jpg);}
+.calc td#skill div.cont div.svim1, .calc td#skill div.cont div.svim2, .calc td#skill div.cont div.svim3, .calc td#skill div.cont div.svim4,
+.calc td#skill div.cont div.slupin1, .calc td#skill div.cont div.slupin2, .calc td#skill div.cont div.slupin3, .calc td#skill div.cont div.slupin4,
+.calc td#skill div.cont div.sjadeon1, .calc td#skill div.cont div.sjadeon2, .calc td#skill div.cont div.sjadeon3, .calc td#skill div.cont div.sjadeon4,
+.calc td#skill div.cont div.sskysong1, .calc td#skill div.cont div.sskysong2, .calc td#skill div.cont div.sskysong3, .calc td#skill div.cont div.sskysong4,
+.calc td#skill div.cont div.sincense1, .calc td#skill div.cont div.sincense2, .calc td#skill div.cont div.sincense3, .calc td#skill div.cont div.sincense4,
+.calc td#skill div.cont div.smodo3, .calc td#skill div.cont div.smodo4
+{width:256px;height:334px;background: url(/images/skills/h4.jpg);}
+.calc td#skill div.cont div.smodo1 {width:256px;height:335px;background: url(/images/skills/h1.jpg);}
+.calc td#skill div.cont div.smodo2 {width:256px;height:335px;background: url(/images/skills/h2.jpg);}
+.calc td#skill div.cont div.sskysong5, .calc td#skill div.cont div.svim5, .calc td#skill div.cont div.slupin5,
+.calc td#skill div.cont div.sincense5, .calc td#skill div.cont div.sjadeon5, .calc td#skill div.cont div.smodo5 {width:256px;height:327px;background: url(/images/skills/h3.jpg);}
+
+.calc td#skill div.cont div.tvim7,  .calc td#skill div.cont div.tvim9,
+.calc td#skill div.cont div.tlupin7,  .calc td#skill div.cont div.tlupin9,
+.calc td#skill div.cont div.tjadeon7,  .calc td#skill div.cont div.tjadeon9,
+.calc td#skill div.cont div.tskysong7, .calc td#skill div.cont div.tskysong9,
+.calc td#skill div.cont div.tincense7, .calc td#skill div.cont div.tincense9,
+.calc td#skill div.cont div.tmodo7, .calc td#skill div.cont div.tmodo9
+ {width:230px;height:339px;margin:auto;background: url(/images/skills/backt1.jpg);}
+.calc td#skill div.cont div.tskysong8, .calc td#skill div.cont div.tvim8, .calc td#skill div.cont div.tlupin8,
+.calc td#skill div.cont div.tincense8, .calc td#skill div.cont div.tjadeon8, .calc td#skill div.cont div.tmodo8 {width:230px;height:339px;margin:auto;background: url(/images/skills/backt2.jpg);}
+
+.calc td#skill div.cont div.skytos1 {width:256px;height:334px;background: url(/images/skills/back_kytos1.png);}
+.calc td#skill div.cont div.skytos2, .calc td#skill div.cont div.skytos3, .calc td#skill div.cont div.skytos4,
+.calc td#skill div.cont div.spsychea2, .calc td#skill div.cont div.spsychea3, .calc td#skill div.cont div.spsychea4
+{width:256px;height:334px;background: url(/images/skills/back_kytos2.png);}
+.calc td#skill div.cont div.skytos5 {width:256px;height:334px;background: url(/images/skills/back_kytos5.png);}
+
+.calc td#skill div.cont div.tkytos7, .calc td#skill div.cont div.tkytos9 {width:256px;height:334px;background: url(/images/skills/tome_kytos1.png);}
+.calc td#skill div.cont div.tkytos8 {width:256px;height:334px;background: url(/images/skills/tome_kytos2.png);}
+.calc td#skill div.cont div.spsychea1 {width:256px;height:334px;background: url(/images/skills/back_psy1.png);}
+.calc td#skill div.cont div.spsychea5 {width:256px;height:334px;background: url(/images/skills/back_psy5.png);}
+.calc td#skill div.cont div.tpsychea7, .calc td#skill div.cont div.tpsychea8, .calc td#skill div.cont div.tpsychea9 {width:256px;height:334px;background: url(/images/skills/tome_psy1.png);}
+
+.calc td#skill div.cont div.shydran1 {width:256px;height:334px;background: url(/images/skills/back_kytos1.png);}
+.calc td#skill div.cont div.shydran2, .calc td#skill div.cont div.shydran3, .calc td#skill div.cont div.shydran4 {width:256px;height:334px;background: url(/images/skills/back_kytos2.png);}
+.calc td#skill div.cont div.shydran5 {width:256px;height:334px;background: url(/images/skills/back_kytos5.png);}
+
+.calc td#skill div.cont div.thydran7 {width:256px;height:334px;background: url(/images/skills/tome_hydran1.png);}
+.calc td#skill div.cont div.thydran8 {width:256px;height:334px;background: url(/images/skills/tome_hydran2.png);}
+.calc td#skill div.cont div.thydran9 {width:256px;height:334px;background: url(/images/skills/tome_hydran3.png);}
+
+.calc td#skill div.cont div.t1 {width:230px;height:339px;background: url(/images/skills/backt1.jpg);}
+.calc td#skill div.space {border:1px solid red;}
+
+.calc td#cmenu a{color:#ccc;text-decoration:none;}
+.calc td#cmenu #rebornskill {padding:5px;}
+.calc td#cmenu .menuitem {text-align:left;padding:5px;}
+.calc td#cmenu #error div {padding:5px;}
+.calc td#cmenu #error div textarea {width:200px;height:150px;}
+.calc td#cmenu #rebornskill a.strong{font-weight:bold;color:#fff}

@@ -1,0 +1,212 @@
+:root {
+  /* =========================================================================
+     Authentic Jade Dynasty Xianxia / Wuxia Aesthetic Palette (Patch 3.11)
+     Dark-lacquered wood, aged charcoal stone, antique bronze & imperial gold
+     ========================================================================= */
+
+  /* Materials & Backgrounds */
+  --bg-primary: #0a0806;             /* Deepest dark-lacquered ebony wood */
+  --bg-secondary: #120e0b;           /* Aged charcoal stone / rosewood */
+  --bg-card: rgba(18, 14, 11, 0.94); /* Carved lacquer panel */
+  --bg-card-hover: rgba(26, 20, 15, 0.98);
+  --bg-panel: #15110d;               /* Inset stone tablet backing */
+  --bg-parchment: #1c1712;           /* Aged warm rice paper parchment */
+  --bg-dark-translucent: rgba(10, 8, 6, 0.95);
+
+  /* Antique Bronze, Tarnished Brass & Carved Imperial Gold */
+  --gold-highlight: #fff0be;         /* Polished gold rim highlight */
+  --gold-primary: #dfc27d;           /* Imperial carved gold */
+  --gold-border: #8a6f3b;            /* Antique brushed bronze border */
+  --gold-dark: #5a4628;              /* Tarnished brass / deep bronze */
+  --bronze-dark: #382c1e;            /* Shadowed cast bronze */
+  --gold-gradient: linear-gradient(180deg, #fff2be 0%, #dfc27d 45%, #8a6f3b 100%);
+  --gold-frame-gradient: linear-gradient(135deg, #dfc27d 0%, #8a6f3b 50%, #dfc27d 100%);
+  --bronze-gradient: linear-gradient(180deg, #382c1e 0%, #1e170f 100%);
+  --wood-panel-gradient: linear-gradient(180deg, #1c1611 0%, #100c09 100%);
+
+  /* 2D/3D Gilded Metallic Frames (Jade Dynasty Authentic Bevel) */
+  --border-gilded-3d: 1.5px solid #8a6f3b;
+  --box-shadow-gilded-frame:
+    0 0 0 1px #140d07,
+    inset 0 0 0 1px #3a2a16,
+    inset 0 0 0 2px #0f0a05,
+    inset 0 0 0 3px rgba(223, 194, 125, 0.35),
+    0 8px 28px rgba(0, 0, 0, 0.9),
+    inset 0 0 18px rgba(0, 0, 0, 0.85);
+
+  /* Celestial Blue Canvas Material (Client Backdrop Azure) */
+  --bg-celestial-blue: #081a24;
+  --celestial-blue-gradient: radial-gradient(ellipse at 50% 20%, rgba(18, 62, 80, 0.65) 0%, rgba(7, 26, 36, 0.85) 60%, rgba(3, 13, 18, 0.98) 100%);
+
+  /* Xianxia Celadon Jade & Cinnabar Lacquer Accents */
+  --jade-celadon: #4e7c6b;          /* Authentic mutton-fat / celadon jade */
+  --jade-primary: #4e7c6b;          /* Celadon jade interactives */
+  --jade-glow: #68ab94;             /* Soft jade luminescence */
+  --jade-deep: #1b332b;             /* Deep jade stone */
+  --cinnabar-red: #8c2d19;          /* Cinnabar lacquer red */
+  --cinnabar-bright: #b23a22;       /* Vibrant cinnabar mark */
+  --cinnabar-dark: #4a150c;         /* Aged lacquer vermilion */
+  --cinnabar-glow: rgba(178, 58, 34, 0.45);
+
+  /* Legacy Teal & Cyan references mapped to Celadon Jade */
+  --teal-accent: #7ac9af;
+  --teal-muted: #36594d;
+
+  /* Typography Colors */
+  --text-gold: #dfc27d;
+  --text-gold-light: #fff0be;
+  --text-jade: #7ac9af;
+  --text-white: #eae3d2;            /* Warm rice paper off-white */
+  --text-muted: #a39580;            /* Aged scroll ink / soft warm gray */
+  --text-dim: #6e6353;              /* Weathered stone ink */
+  --text-green: #68c99e;
+  --text-red: #d94b34;
+  --text-orange: #e59a42;
+
+  /* Skeuomorphic Shadows & Glows */
+  --border-gold-glow: 0 0 10px rgba(223, 194, 125, 0.45);
+  --border-jade-glow: 0 0 12px rgba(104, 171, 148, 0.35);
+  --border-cinnabar-glow: 0 0 12px rgba(178, 58, 34, 0.45);
+  --shadow-heavy: 0 10px 32px rgba(0, 0, 0, 0.88);
+  --text-shadow-engraved: 0 1px 2px rgba(0, 0, 0, 0.95), 0 0 8px rgba(197, 160, 89, 0.35);
+
+  /* Fonts */
+  --font-serif: 'Cinzel', 'Noto Serif SC', serif;
+  --font-body: 'Marcellus', 'Noto Serif SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', serif;
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(138, 111, 59, 0.18) 0%, transparent 65%),
+    radial-gradient(circle at 15% 85%, rgba(78, 124, 107, 0.10) 0%, transparent 50%),
+    radial-gradient(circle at 85% 85%, rgba(140, 45, 25, 0.10) 0%, transparent 50%),
+    linear-gradient(180deg, #0d0a07 0%, #140f0b 50%, #080605 100%);
+  color: var(--text-white);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Custom In-Game Antique Scrollbars */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0a07;
+  border-left: 1px solid #292016;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #3d3020 0%, #241c13 100%);
+  border: 1px solid var(--gold-border);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #57442d 0%, #36291a 100%);
+  border-color: var(--gold-primary);
+}
+
+/* Skeuomorphic In-Game Wooden/Bronze Tablets (Buttons) */
+.jd-btn {
+  background: linear-gradient(180deg, #2a2016 0%, #15100a 100%);
+  border: 1px solid var(--gold-border);
+  color: var(--text-gold);
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  position: relative;
+  transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: inset 0 1px 0 rgba(255, 240, 190, 0.22), inset 0 -1px 0 rgba(0, 0, 0, 0.8), 0 2px 6px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.jd-btn:hover {
+  background: linear-gradient(180deg, #3d2f21 0%, #201810 100%);
+  border-color: var(--gold-highlight);
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 240, 190, 0.4), var(--border-gold-glow);
+  transform: translateY(-1px);
+}
+
+.jd-btn:active {
+  transform: translateY(1px);
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.85);
+}
+
+.jd-btn.btn-primary {
+  background: linear-gradient(180deg, #2d453b 0%, #15241e 100%);
+  border-color: var(--jade-celadon);
+  color: #c9fff0;
+  box-shadow: inset 0 1px 0 rgba(122, 201, 175, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.8), 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.jd-btn.btn-primary:hover {
+  background: linear-gradient(180deg, #3e6052 0%, #1e352c 100%);
+  border-color: var(--jade-glow);
+  box-shadow: inset 0 1px 0 rgba(122, 201, 175, 0.5), var(--border-jade-glow);
+}
+
+.jd-btn.btn-danger {
+  background: linear-gradient(180deg, #571e13 0%, #2b0c06 100%);
+  border-color: var(--cinnabar-bright);
+  color: #ffcccc;
+  box-shadow: inset 0 1px 0 rgba(255, 120, 100, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.8), 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.jd-btn.btn-danger:hover {
+  background: linear-gradient(180deg, #782718 0%, #3d1209 100%);
+  border-color: #ff5252;
+  box-shadow: inset 0 1px 0 rgba(255, 120, 100, 0.45), var(--border-cinnabar-glow);
+}
+
+/* Ornate Chinese Filigree Frame Panel */
+.jd-panel {
+  background: var(--bg-card);
+  border: 1.5px solid var(--gold-border);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.8), inset 0 0 16px rgba(0, 0, 0, 0.7);
+  position: relative;
+  backdrop-filter: blur(8px);
+}
+
+.jd-panel::before,
+.jd-panel::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--gold-primary);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.jd-panel::before {
+  top: -2px;
+  left: -2px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.jd-panel::after {
+  bottom: -2px;
+  right: -2px;
+  border-left: none;
+  border-top: none;
+}
+

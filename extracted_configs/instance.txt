@@ -1,0 +1,1097 @@
+////////////////////////
+"Sunstream"
+{
+1
+0
+"Z1"
+"Z1"
+"Textures\Maps\detail\Z1.dds"
+1,1
+61,103,137
+223,
+}
+////////////////////////
+"Jadeon"
+{
+2
+6
+"Z2"
+"Z2"
+"Textures\Maps\detail\Z2.dds"
+1,1
+37,79,85
+114,
+}
+////////////////////////
+"Skysong"
+{
+3
+3
+"Z3"
+"Z3"
+"Textures\Maps\detail\Z3.dds"
+1,1
+48,114,105
+372,
+}
+////////////////////////
+"Billows"
+{
+4
+2
+"Z4"
+"Z4"
+"Textures\Maps\detail\Z4.dds"
+1,1
+37,79,85
+154,
+}
+////////////////////////
+"Doom Bog"
+{
+5
+4
+"Z5"
+"Z5"
+"Textures\Maps\detail\Z5.dds"
+1,1
+46,87,38
+321,
+}
+////////////////////////
+"Wildlands"
+{
+6
+5
+"Z6"
+"Z6"
+"Textures\Maps\detail\Z6.dds"
+1,1
+105,119,83
+104,
+}
+////////////////////////
+"Incense Valley"
+{
+7
+0
+"Z7"
+"Z7"
+"Textures\Maps\detail\Z7.dds"
+1,1
+37,79,85
+133,
+}
+////////////////////////
+"Southern Border"
+{
+8
+0
+"Z8"
+"Z8"
+"Textures\Maps\detail\Z8.dds"
+1,1
+37,79,85
+125,
+}
+////////////////////////
+"Cave of Fangs"
+{
+9
+0
+"Z9"
+"Z9"
+"Textures\Maps\detail\Z9.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Kunlun"
+{
+10
+1
+"Z10"
+"Z10"
+"Textures\Maps\detail\Z10.dds"
+1,1
+37,79,85
+208,
+}
+////////////////////////
+"Shura"
+{
+11
+0
+"Z11"
+"Z11"
+"Textures\Maps\detail\Z11.dds"
+1,1
+54,52,78
+187,
+}
+////////////////////////
+"Dark Drake Cave"
+{
+12
+0
+"Z12"
+"Z12"
+"Textures\Maps\detail\Z12.dds"
+1,1
+37,79,85
+0,
+3
+-512 512 -512 -42 "-1" "Foxhill Tomb"
+358 512 351 512 "-3" "Phoenix Tower"
+28 322 18 512 "-3" "Royal City"
+}
+////////////////////////
+"Battleground"
+{
+13
+0
+"Z13"
+"Z13"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-26 512 -512 512 "-4" "Fort Cloudstorm"
+}
+////////////////////////
+"Cave of Ancient Tales"
+{
+14
+0
+"Z14"
+"Z14"
+"Textures\Maps\detail\Z14.dds"
+1,1
+39,57,101
+0,
+2
+-512 -244 -512 -252 "-1" "Inner Bloodrop Cave"
+173 512 52 512 "-2" "Outer Bloodrop Cave"
+}
+////////////////////////
+"Kunlun Wonderland"
+{
+15
+0
+"Z15"
+"Z15"
+"Textures\Maps\detail\Z15.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Moontop Hollow"
+{
+16
+0
+"Z16"
+"Z16"
+"Textures\Maps\detail\Z16.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Seat of Infernal Toil"
+{
+17
+0
+"Z17"
+"Z17"
+"Textures\Maps\detail\Z17.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Seat of Chaos"
+{
+18
+0
+"Z18"
+"Z18"
+"Textures\Maps\detail\Z18.dds"
+1,1
+37,79,85
+0,
+1
+-512 -75 -512 -119 "-1" "Seat of Chaos"
+}
+////////////////////////
+"Ascension Affinity Area"
+{
+19
+0
+"Z19"
+"Z19"
+"Textures\Maps\detail\Z19.dds"
+1,1
+37,79,85
+600,
+3
+-512 87 7 512 "-1" "Immortal Land"
+-512 109 -512 -15 "-2" "Purified Lands"
+125 512 -512 512 "-3" "The Fel Lands"
+}
+////////////////////////
+"New Area"
+{
+20
+0
+"Z20"
+"Z20"
+"Textures\Maps\detail\Z20.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Royal City"
+{
+21
+0
+"Z21"
+"Z21"
+"Textures\Maps\detail\Z21.dds"
+2,1
+37,79,85
+490,
+}
+////////////////////////
+"Royal City"
+{
+321
+0
+"Z21"
+"d21"
+"Textures\Maps\detail\Z21.dds"
+2,1
+37,79,85
+490,
+}
+////////////////////////
+"Battleground 1"
+{
+101
+0
+"Z13"
+"b01"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Battleground 2"
+{
+102
+0
+"Z13"
+"b02"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-290 0 194 512 "-1" "Waterway Battleground"
+}
+////////////////////////
+"Battleground 3"
+{
+103
+0
+"Z13"
+"b01"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Battleground 4"
+{
+104
+0
+"Z13"
+"b02"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-290 0 194 512 "-1" "Waterway Battleground"
+}
+////////////////////////
+"Battleground 5"
+{
+105
+0
+"Z13"
+"b03"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 -230 -512 -194 "-3" "Brimstone Battleground"
+}
+////////////////////////
+"Battleground 6"
+{
+106
+0
+"Z13"
+"b03"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 -230 -512 -194 "-3" "Brimstone Battleground"
+}
+////////////////////////
+"Battleground 7"
+{
+107
+0
+"Z13"
+"b04"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 -230 -194 194 "-2" "Strategist Battleground "
+}
+////////////////////////
+"Battleground 8"
+{
+108
+0
+"Z13"
+"b04"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 -230 -194 194 "-2" "Strategist Battleground "
+}
+////////////////////////
+"Battleground 9"
+{
+109
+0
+"Z18"
+"b05"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Battleground 10"
+{
+110
+0
+"Z18"
+"b05"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Battleground 11"
+{
+111
+0
+"Z18"
+"b06"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Battleground 12"
+{
+112
+0
+"Z18"
+"b06"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Fort Siege 01"
+{
+201
+0
+"Z13"
+"c01"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-26 512 -512 512 "-4" "Fort Cloudstorm"
+}
+////////////////////////
+"Fort Siege 02"
+{
+202
+0
+"Z13"
+"c02"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-26 512 -512 512 "-4" "Fort Cloudstorm"
+}
+////////////////////////
+"Cave of Fangs 2"
+{
+309
+0
+"Z9"
+"d09"
+"Textures\Maps\detail\Z9.dds"
+1,1
+37,79,85
+0,
+1
+-512 512 -512 -46 "-1" "The Mortal Realm"
+}
+////////////////////////
+"Foxhill 2"
+{
+312
+0
+"Z12"
+"Z12"
+"Textures\Maps\detail\Z12.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Cave of Ancient Tales 2"
+{
+314
+0
+"Z14"
+"d14"
+"Textures\Maps\detail\Z14.dds"
+1,1
+39,57,101
+0,
+1
+-512 -25 -512 512 "-3" "The Mortal Realm"
+}
+////////////////////////
+"Affinity Skills 2"
+{
+319
+0
+"Z19"
+"d19"
+"Textures\Maps\detail\Z19.dds"
+1,1
+39,57,101
+600,
+3
+-512 87 7 512 "-1" "Land of Immortals"
+-512 109 -512 -15 "-2" "Purified Lands"
+125 512 -512 512 "-3" "The Fel Lands "
+}
+////////////////////////
+"Ascension Battleground 1"
+{
+121
+0
+"Z13"
+"b21"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 -230 -512 -194 "-3" "Brimstone Battleground"
+}
+////////////////////////
+"Ascension Battleground 2"
+{
+122
+0
+"Z13"
+"b21"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 -230 -512 -194 "-3" "Brimstone Battleground"
+}
+////////////////////////
+"Ascension Battleground 3"
+{
+123
+0
+"Z13"
+"b22"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Ascension Battleground 4"
+{
+124
+0
+"Z13"
+"b22"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+}
+////////////////////////
+"Ascension Battleground 5"
+{
+125
+0
+"Z13"
+"b23"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-290 0 194 512 "-1" "Waterway Battleground"
+}
+////////////////////////
+"Ascension Battleground 6"
+{
+126
+0
+"Z13"
+"b23"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-290 0 194 512 "-1" "Waterway Battleground"
+}
+////////////////////////
+"Ascension Battleground 7"
+{
+127
+0
+"Z13"
+"b24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 -230 -194 194 "-2" "Strategist Battleground "
+}
+////////////////////////
+"Ascension Battleground 8"
+{
+128
+0
+"Z13"
+"b24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 -230 -194 194 "-2" "Strategist Battleground "
+}
+////////////////////////
+"Chu-Han Battleground"
+{
+131
+0
+"Z22"
+"s01"
+"Textures\Maps\detail\Z22.dds"
+1,1
+37,79,85
+300,
+}
+////////////////////////
+"Divine Realm"
+{
+23
+0
+"Z23"
+"Z23"
+"Textures\Maps\detail\Z23.dds"
+1,1
+37,79,85
+450,
+}
+////////////////////////
+"Arena"
+{
+133
+0
+"Z18"
+"b33"
+"Textures\Maps\detail\Z18.dds"
+1,1
+37,79,85
+300,
+1
+-75 512 -512 -119 "-2" "Martial Arena"
+}
+////////////////////////
+"Truth Swordtower"
+{
+113
+0
+"Z18"
+"b13"
+"Textures\Maps\detail\Z18.dds"
+1,1
+37,79,85
+300,
+}
+////////////////////////
+"Grasstemple Village"
+{
+114
+0
+"Z18"
+"b14"
+"Textures\Maps\detail\Z18.dds"
+1,1
+37,79,85
+300,
+1
+-512 -162 25 512 "-4" "Grasstemple Village"
+}
+////////////////////////
+"Heaven's Repository"
+{
+115
+0
+"Z16"
+"b15"
+"Textures\Maps\detail\Z16.dds"
+1,1
+37,79,85
+300,
+1
+-512 512 -512 512 "-2" "Heaven's Repository"
+}
+////////////////////////
+"Ascension Arena"
+{
+134
+0
+"Z18"
+"b34"
+"Textures\Maps\detail\Z18.dds"
+1,1
+37,79,85
+300,
+1
+-75 512 -512 -119 "-2" "Martial Arena"
+}
+////////////////////////
+"Cave of Fangs"
+{
+409
+0
+"Z9"
+"f09"
+"Textures\Maps\detail\Z9.dds"
+1,1
+37,79,85
+300,
+}
+////////////////////////
+"Territory War 01"
+{
+501
+0
+"Z24"
+"z24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-252 512 -263 512 "" "Lost Forest"
+}
+////////////////////////
+"Territory War 02"
+{
+502
+0
+"Z24"
+"z24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-252 512 -263 512 "" "Lost Forest"
+}
+////////////////////////
+"Territory War 03"
+{
+503
+0
+"Z24"
+"z24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-252 512 -263 512 "" "Lost Forest"
+}
+////////////////////////
+"Territory War 04"
+{
+504
+0
+"Z24"
+"z24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-252 512 -263 512 "" "Lost Forest"
+}
+////////////////////////
+"Territory War 05"
+{
+505
+0
+"Z24"
+"z24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-252 512 -263 512 "" "Lost Forest"
+}
+////////////////////////
+"Territory War 06"
+{
+506
+0
+"Z24"
+"z24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-252 512 -263 512 "" "Lost Forest"
+}
+////////////////////////
+"Territory War 07"
+{
+507
+0
+"Z24"
+"z24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-252 512 -263 512 "" "Lost Forest"
+}
+////////////////////////
+"Territory War 08"
+{
+508
+0
+"Z24"
+"z24"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-252 512 -263 512 "" "Lost Forest"
+}
+////////////////////////
+"★Territory War 01"
+{
+509
+0
+"Z25"
+"z25"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-40 512 -89 512 "" "Foreboding Valley"
+}
+////////////////////////
+"★Territory War 02"
+{
+510
+0
+"Z25"
+"z25"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-40 512 -89 512 "" "Foreboding Valley"
+}
+////////////////////////
+"★Territory War 03"
+{
+511
+0
+"Z25"
+"z25"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-40 512 -89 512 "" "Foreboding Valley"
+}
+////////////////////////
+"★Territory War 04"
+{
+512
+0
+"Z25"
+"z25"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-40 512 -89 512 "" "Foreboding Valley"
+}
+////////////////////////
+"★Territory War 05"
+{
+513
+0
+"Z25"
+"z25"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-40 512 -89 512 "" "Foreboding Valley"
+}
+////////////////////////
+"★Territory War 06"
+{
+514
+0
+"Z25"
+"z25"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-40 512 -89 512 "" "Foreboding Valley"
+}
+////////////////////////
+"★Territory War 07"
+{
+515
+0
+"Z25"
+"z25"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-40 512 -89 512 "" "Foreboding Valley"
+}
+////////////////////////
+"★Territory War 08"
+{
+516
+0
+"Z25"
+"z25"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-40 512 -89 512 "" "Foreboding Valley"
+}
+////////////////////////
+"★★Territory War 01"
+{
+517
+0
+"Z26"
+"z26"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 512 -512 512 "" "Imperial Citadel"
+}
+////////////////////////
+"★★Territory War 02"
+{
+518
+0
+"Z26"
+"z26"
+"Textures\Maps\detail\Z13.dds"
+1,1
+37,79,85
+0,
+1
+-512 512 -512 512 "" "Imperial Citadel"
+}
+////////////////////////
+"Dark Drake Cave"
+{
+412
+0
+"Z12"
+"f12"
+"Textures\Maps\detail\Z12.dds"
+1,1
+37,79,85
+300,
+}
+////////////////////////
+"Dragon Bay"
+{
+609
+0
+"Z9"
+"e09"
+"Textures\Maps\detail\Z9.dds"
+1,1
+37,79,85
+300,
+1
+-512 -64 -21 512 "-3" "Dragon Bay"
+}
+////////////////////////
+"2010 PK"
+{
+135
+0
+"Z25"
+"b35"
+"Textures\Maps\detail\Z25.dds"
+1,1
+37,79,85
+0,
+1
+-512 -46 -512 -6 "-1" "2010 PK"
+}
+////////////////////////
+"Imperial Citadel"
+{
+26
+0
+"z26"
+"kf10"
+"Textures\Maps\detail\Z26.dds"
+1,1
+37,79,85
+114,
+}
+////////////////////////
+"Secret Place"
+{
+429
+0
+"Z29"
+"f29"
+"Textures\Maps\detail\Z14.dds"
+1,1
+37,79,85
+300,
+}
+////////////////////////
+"Dragon Mountain"
+{
+31
+0
+"Z31"
+"z31"
+"Textures\Maps\detail\Z31.dds"
+1,1
+37,79,85
+300,
+}
+////////////////////////
+"Kunlun Wonderland"
+{
+315
+0
+"Z15"
+"d15"
+"Textures\Maps\detail\Z15.dds"
+1,1
+39,57,101
+0,
+}
+////////////////////////
+"Brahma Land"
+{
+32
+0
+"Z32"
+"Z32"
+"Textures\Maps\detail\Z32.dds"
+1,1
+61,103,137
+450,
+}
+////////////////////////
+"Shura Gauntlet"
+{
+136
+0
+"Z11"
+"b36"
+"Textures\Maps\detail\Z11.dds"
+1,1
+61,103,137
+223,
+1
+-512 512 -512 512 "-1" "Shura Gauntlet"
+}

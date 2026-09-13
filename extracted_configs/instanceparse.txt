@@ -1,0 +1,134 @@
+//坐标为：左X，右X,下Z，上Z
+
+12
+3
+-512 512 -512 -42 "-1" "Foxhill Tomb" 
+358 512 351 512 "-3" "Phoenix Tower"
+28 322 18 512 "-3" "Royal City"
+
+
+13
+1
+-26 512 -512 512 "-4" "Fort Cloudstorm"
+
+14
+2
+-512 -244 -512 -252 "-1" "Inner Bloodrop Cave"
+173 512 52 512 "-2" "Outer Bloodrop Cave"
+
+
+18
+1
+-512 -75 -512 -119 "-1" "Seat of Chaos"
+
+19
+3
+-512 87 7 512 "-1" "Land of Immortals"
+-512 109 -512 -15 "-2" "Purified Lands"
+125 512 -512 512 "-3" "The Fel Lands"
+
+102
+1
+-290 0 194 512 "-1" "Waterway Battleground"
+
+104
+1
+-290 0 194 512 "-1" "Waterway Battleground"
+
+107
+1
+-512 -230 -194 194 "-2" "Strategist Battleground"
+
+108
+1
+-512 -230 -194 194 "-2" "Strategist Battleground"
+
+115
+1
+-512 512 -512 512 "-2" "Dread Labyrinth"
+
+319
+3
+-512 87 7 512 "-1" "Land of Immortals"
+-512 109 -512 -15 "-2" "Purified Lands"
+125 512 -512 512 "-3" "The Fel Lands"
+
+
+
+125
+1
+-290 0 194 512 "-1" "Waterway Battleground"
+
+126
+1
+-290 0 194 512 "-1" "Waterway Battleground"
+
+
+127
+1
+-512 -230 -194 194 "-2" "Strategist Battleground"
+
+128
+1
+-512 -230 -194 194 "-2" "Strategist Battleground"
+
+133
+1
+-75 512 -512 -119 "-2" "Martial Arena"
+
+134
+1
+-75 512 -512 -119 "-2" "Martial Arena"
+
+109
+1
+-512 512 -512 512 "-2" "Unknown"
+
+110
+1
+-512 512 -512 512 "-2" "Unknown"
+
+111
+1
+-512 512 -512 512 "-2" "Unknown"
+
+112
+1
+-512 512 -512 512 "-2" "Unknown"
+
+105
+1
+
+-512 -230 -512 -194 "-3" "Brimstone Battleground"
+
+106
+1
+-512 -230 -512 -194 "-3" "Brimstone Battleground"
+
+121
+1
+-512 -230 -512 -194 "-3" "Brimstone Battleground"
+
+122
+1
+-512 -230 -512 -194 "-3" "Brimstone Battleground"
+
+114
+1
+-75 512 -512 -119 "-4" "Grasstemple Village"
+
+201
+1
+-26 512 -512 512 "-4" "Fort Cloudstorm"
+
+202
+1
+-26 512 -512 512 "-4" "Fort Cloudstorm"
+
+314
+1
+-512 -25 -512 512 "-3" "The Mortal Realm"
+
+309
+1
+-512 512 -512 -46 "-1" "The Mortal Realm"

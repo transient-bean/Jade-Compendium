@@ -1,0 +1,8 @@
+#_index
+#_begin
+
+1	"01.anm"
+2	"02.anm"
+3	"03.anm"
+4       "xueren.anm"
+5	"主线剧情动画-上古1.anm"

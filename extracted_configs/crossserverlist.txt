@@ -1,0 +1,18 @@
+天界	29000:tianjiewt1.link.zhuxian.com.cn	2031
+天界	29000:tianjiewt2.link.zhuxian.com.cn	2032
+天界	29000:tianjiewt3.link.zhuxian.com.cn	2033
+天界	29000:tianjiexwt1.link.zhuxian.com.cn	2034
+天界	29000:tianjiexwt2.link.zhuxian.com.cn	2035
+天界	29000:tianjiedx1.link.zhuxian.com.cn	2036
+天界	29000:tianjiedx2.link.zhuxian.com.cn	2037
+天界	29000:tianjiedx3.link.zhuxian.com.cn	2038
+天界	29000:tianjiedx4.link.zhuxian.com.cn	2039
+天界	29000:tianjiedx5.link.zhuxian.com.cn	2040
+天界	29000:tianjiexdx1.link.zhuxian.com.cn	2041
+天界	29000:tianjiexdx2.link.zhuxian.com.cn	2042
+天界	29000:tianjiexdx3.link.zhuxian.com.cn	2043
+天界	29000:tianjiexdx4.link.zhuxian.com.cn	2047
+天界	29000:tianjiety.link.zhuxian.com.cn	2009
+跨服		39000:10.68.12.11	1212
+外网跨服 29000:61.55.177.103 462
+
