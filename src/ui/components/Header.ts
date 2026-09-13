@@ -49,7 +49,7 @@ export class Header {
     const currentClassMeta = CLASS_MAP.get(this.currentClassId) || CLASSES[0];
     const filteredClasses = CLASSES.filter(c => c.faction === this.currentFaction);
     const isPlanner = this.currentMode === 'planner';
-    const charName = this.activeCharacter?.name || 'My Character';
+    const charName = this.activeCharacter?.name || '+ Create Character';
 
     this.container.innerHTML = `
       <!-- Top Site Header -->

@@ -147,40 +147,28 @@ export class StorageManager {
     try {
       const raw = localStorage.getItem('jade_compendium_characters');
       if (!raw) {
-        // Auto-seed initial character if empty
-        const initial = this.createInitialCharacter();
-        return initial ? [initial] : [];
+        return [];
       }
       const chars: Character[] = JSON.parse(raw);
       if (!Array.isArray(chars) || chars.length === 0) {
-        const initial = this.createInitialCharacter();
-        return initial ? [initial] : [];
+        return [];
+      }
+      // Migration: clean up any legacy auto-seeded "My Jadeon" dummy character
+      // that was automatically created if user hasn't explicitly created one
+      if (
+        chars.length === 1 &&
+        chars[0].name.startsWith('My ') &&
+        Object.keys(chars[0].allocation || {}).length === 0 &&
+        !localStorage.getItem('jade_compendium_user_created')
+      ) {
+        localStorage.removeItem('jade_compendium_characters');
+        localStorage.removeItem('jade_compendium_active_character_id');
+        return [];
       }
       return chars;
     } catch {
       return [];
     }
-  }
-
-  private static createInitialCharacter(): Character | null {
-    const lastClass = this.getLastClass() || 'jadeon';
-    const autoSave = this.getAutoSave(lastClass);
-    const char: Character = {
-      id: 'char_' + Date.now(),
-      name: `My ${lastClass.charAt(0).toUpperCase() + lastClass.slice(1)}`,
-      classId: lastClass,
-      createdAt: Date.now(),
-      updatedAt: Date.now(),
-      allocation: autoSave?.allocation || {},
-      tomeAllocation: autoSave?.tomeAllocation || {}
-    };
-    try {
-      localStorage.setItem('jade_compendium_characters', JSON.stringify([char]));
-      localStorage.setItem('jade_compendium_active_character_id', char.id);
-    } catch {
-      // Ignore
-    }
-    return char;
   }
 
   public static getActiveCharacterId(): string | null {
@@ -233,6 +221,7 @@ export class StorageManager {
 
     chars.unshift(newChar);
     try {
+      localStorage.setItem('jade_compendium_user_created', 'true');
       localStorage.setItem('jade_compendium_characters', JSON.stringify(chars));
       this.setActiveCharacterId(newChar.id);
       this.setLastClass(classId);
